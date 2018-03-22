@@ -4,7 +4,7 @@
 module my_freq_div(
     input clk,
     
-    output reg my_out=0
+    output reg my_out = 0
     );
     
     reg [7:0]counter = 0;
