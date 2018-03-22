@@ -4,6 +4,6 @@ module my_counter(
     );
         
     always@(posedge clk) 
-        counter <= counter + 1;
+        counter = counter + 1;
         
 endmodule
