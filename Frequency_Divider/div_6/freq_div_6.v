@@ -1,3 +1,4 @@
+// 1st divided by 3, 2nd divided by 2
 // duty cycyle is 50%
 
 module my_freq_div(
