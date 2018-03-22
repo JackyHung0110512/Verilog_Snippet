@@ -13,6 +13,7 @@ module mux_5_1(
             2: my_out = my_in[2];
             3: my_out = my_in[3];
             4: my_out = my_in[4];
+            default: my_out = my_in[0];
         endcase
     end
     
