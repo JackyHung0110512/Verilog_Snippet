@@ -2,6 +2,7 @@
 module mux_5_1(
     input [4:0]my_in,
     input [2:0]sel,
+    
     output reg my_out
     );
     
@@ -17,7 +18,7 @@ module mux_5_1(
     
 endmodule
 /* Button Location
-                         BTN_U(M18)
+              BTN_U(M18)
    BTN_L(P17) BTN_C(N17) BTN_R(M17)
-                        BTN_D(P18)
+              BTN_D(P18)
 */   
