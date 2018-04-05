@@ -1,5 +1,7 @@
 // top module 名稱為 ripple_carry_counter
 // 括弧內變數依序為：輸出 q、輸入 clk、輸入 reset
+`timescale 1ns / 1ps
+
 module ripple_carry_counter(q, clk, reset);
 
 // 此範例輸入輸出的型別定義在括弧外

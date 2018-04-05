@@ -1,5 +1,7 @@
 // D_FF 定義如下
 // 括弧內為：輸出 q、輸入 d、輸入 clk、輸入 reset
+`timescale 1ns / 1ps
+
 module D_FF(q, d, clk, reset);
 
 // 欲將變數放入 always 中，其型別必須增加成 reg

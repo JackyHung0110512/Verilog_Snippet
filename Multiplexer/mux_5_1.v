@@ -1,4 +1,6 @@
 // mux_in: my_in, mux_out_my_out, select bit: sel
+`timescale 1ns / 1ps
+
 module mux_5_1(
     input [4:0]my_in,
     input [2:0]sel,

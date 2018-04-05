@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module my_7_segment(
 	input [3:0] q,
 	input [7:0] an_in,

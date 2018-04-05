@@ -1,5 +1,7 @@
 // T_FF 定義如下
 // 括弧內為：輸出 q、輸入 clk、輸入 reset
+`timescale 1ns / 1ps
+
 module T_FF(q, clk, reset);
     
     input clk;
