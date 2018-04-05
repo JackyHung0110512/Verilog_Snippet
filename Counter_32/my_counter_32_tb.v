@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module my_counter_tb();
     reg clk;
     wire [31:0]counter;
