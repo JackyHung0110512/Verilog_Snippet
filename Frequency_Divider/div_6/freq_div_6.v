@@ -1,5 +1,6 @@
 // 1st divided by 3, 2nd divided by 2
 // duty cycyle is 50%
+`timescale 1ns / 1ps
 
 module my_freq_div(
     input clk,
