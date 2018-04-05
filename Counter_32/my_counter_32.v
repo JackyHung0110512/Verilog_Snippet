@@ -1,3 +1,4 @@
+`timescale 1ns / 1ps
 module my_counter(
     input clk,
     output reg [31:0]counter = 0
