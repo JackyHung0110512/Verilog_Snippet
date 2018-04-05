@@ -1,4 +1,6 @@
 // example for divisor is equal to 2-order
+`timescale 1ns / 1ps
+
 module my_freq_div(
     input clk,
     output div_out_2,
