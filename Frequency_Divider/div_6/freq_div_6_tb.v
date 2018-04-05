@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module my_freq_div_tb();
     reg clk;
     
