@@ -13,3 +13,4 @@ module my_counter_tb();
         #5 clk = ~clk;
     
 endmodule
+//test
