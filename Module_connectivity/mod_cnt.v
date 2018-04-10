@@ -1,14 +1,31 @@
 `timescale 1ns / 1ps
 
-module mod_cnt_tb();
-    reg clk;
-    wire [1:0]out;
+module main_mod(
+    input clk,
+    output [1:0]out
+);
 
-    main_mod UUT(clk, out);
+    wire [3:0]my_wire;
 
-    initial 
-        clk = 1;
+    my_counter g1(clk, my_wire);
+    my_buf g2(my_wire[3:2], out);
 
-    always
-        #5 clk = ~clk;
+endmodule
+
+module my_counter(
+    input clk,
+    output reg [3:0]cnt = 0
+);
+
+    always @(posedge clk)
+        cnt <= cnt + 1;
+
+endmodule
+
+module my_buf(
+    input [1:0]bin,
+    output [1:0]bout
+);
+    assign bout = bin;
+
 endmodule
